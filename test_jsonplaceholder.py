@@ -41,4 +41,4 @@ def test_users():
         seen_ids.add(user.id)
 
 # Для запуска теста через pytest можно использовать команду:
-# pytest test_users.py --maxfail=1 --disable-warnings -v
+# pytest test_jsonplaceholder.py -p no:warnings
